@@ -8,4 +8,4 @@ while True:
     led.value(1)  # Turn the LED on
     time.sleep(0.50)  # Wait for 0.5 seconds
     led.value(0)  # Turn the LED off
-    time.sleep(0.15)  # Wait for 0.5 seconds
+    time.sleep(0.50)  # Wait for 0.5 seconds

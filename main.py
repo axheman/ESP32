@@ -6,6 +6,6 @@ led = Pin(2, Pin.OUT)
 
 while True:
     led.value(1)  # Turn the LED on
-    time.sleep(0.055)  # Wait for 0.05 seconds
+    time.sleep(0.55)  # Wait for 0.05 seconds
     led.value(0)  # Turn the LED off
-    time.sleep(0.05)  # Wait for 0.5 seconds
+    time.sleep(0.5)  # Wait for 0.5 seconds
